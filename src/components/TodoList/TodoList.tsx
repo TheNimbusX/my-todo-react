@@ -38,7 +38,7 @@ export default function TodoList() {
   return (
     <div className="todolist-wrapper">
       <TodoInput onAddTask={addTask} />
-      <div className="flex w-full h-full overflow-scroll flex-col-reverse justify-between">
+      <div className="flex w-full h-full overflow-x-hidden flex-col-reverse justify-between ">
         <Tabs aria-label="Options">
           <Tab key="all" title="Все">
             <Card className="shadow-none rendered-card">
