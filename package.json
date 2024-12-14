@@ -2,6 +2,7 @@
   "name": "mytodo",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://TheNimusX.github.io/TheNimbusX/my-todo-react",
   "type": "module",
   "scripts": {
     "start": "vite",
