@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://TheNimusX.github.io/TheNimbusX/my-todo-react",
   "scripts": {
     "start": "vite",
     "build": "tsc -b && vite build",
