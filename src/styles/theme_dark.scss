@@ -1,0 +1,32 @@
+@import "./vars";
+
+.dark-theme {
+  background-color: $body-dark;
+  color: $text-color-dark;
+  transition: 0.3s ease-in-out all;
+
+  .taskDone {
+    background-color: $secondary-color-dark;
+    color: $text-color-dark;
+  }
+
+  .app .app-title {
+    color: $text-color-dark;
+  }
+  .todolist-wrapper {
+    background-color: $background-dark;
+  }
+  .rendered-card {
+    background-color: $background-dark;
+  }
+  .todo-text {
+    color: $textcolor-dark;
+  }
+
+  .select-theme {
+    background-color: $background-dark;
+  }
+  .none-tasks {
+    color: $text-color-dark;
+  }
+}

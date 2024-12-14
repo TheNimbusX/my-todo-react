@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./vars";
+@import "./theme_dark.scss";
+@import "./theme_light.scss";
+
+body {
+  background-color: $body;
+}
+
+#root {
+  height: 100vh;
+}

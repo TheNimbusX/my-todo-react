@@ -1,0 +1,29 @@
+@import "./vars";
+
+.app {
+  padding: 20px;
+  height: 100vh;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  .app-title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: $textcolor;
+  }
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 20px;
+    height: 100vh;
+
+    .app-title {
+      font-size: 30px;
+    }
+  }
+}

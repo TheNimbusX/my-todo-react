@@ -1,0 +1,22 @@
+@import "./vars";
+
+.light-theme {
+  background-color: $body;
+  color: #000000;
+  transition: 0.3s ease-in-out all;
+
+  .taskDone {
+    background-color: $secondary-color;
+    color: $text-color;
+  }
+
+  .app .app-title {
+    color: $text-color;
+  }
+  .todolist-wrapper {
+    background-color: $background;
+  }
+  .none-tasks {
+    color: $text-color-light;
+  }
+}
