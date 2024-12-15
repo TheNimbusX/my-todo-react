@@ -29,4 +29,15 @@
   .none-tasks {
     color: $text-color-dark;
   }
+  .add-item {
+    // background-color: $primary-color-dark;
+    color: $textcolor-dark;
+  }
+  .bg-default-100 {
+    background-color: $inputs-dark;
+
+    &:hover {
+      background-color: #3a3a3a;
+    }
+  }
 }

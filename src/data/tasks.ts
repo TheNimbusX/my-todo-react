@@ -9,7 +9,7 @@ export const TASKS: Array<TaskType> = [
   {
     id: 2,
     title: "Написать чистый и красивый код",
-    isDone: true,
+    isDone: false,
   },
   {
     id: 3,

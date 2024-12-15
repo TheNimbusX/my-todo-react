@@ -2,9 +2,10 @@ import { useState } from "react";
 import DeleteButton from "../DeleteButton/DeleteButton";
 import TodoInput from "../TodoInput/TodoInput";
 import TodoItem from "../TodoItem/TodoItem";
-import "./TodoList.scss";
 import { Tabs, Tab, Card } from "@nextui-org/react";
 import { TASKS } from "../../data/tasks";
+
+import "./TodoList.scss";
 
 export default function TodoList() {
   const [todoState, setState] = useState(TASKS);

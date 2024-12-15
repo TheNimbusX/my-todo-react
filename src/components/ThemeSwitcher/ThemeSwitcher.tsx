@@ -50,7 +50,6 @@ export default function ThemeSwitcher() {
   const [theme, setTheme] = useState(true);
 
   useEffect(() => {
-    // Проверьте локальное хранилище на наличие сохраненной темы
     const savedTheme = localStorage.getItem("theme");
     if (savedTheme) {
       setTheme(savedTheme === "light");
@@ -62,11 +61,11 @@ export default function ThemeSwitcher() {
     if (theme) {
       document.body.classList.add("light-theme");
       document.body.classList.remove("dark-theme");
-      localStorage.setItem("theme", "light"); // Сохраняя тему
+      localStorage.setItem("theme", "light");
     } else {
       document.body.classList.add("dark-theme");
       document.body.classList.remove("light-theme");
-      localStorage.setItem("theme", "dark"); // Сохраняя тему
+      localStorage.setItem("theme", "dark");
     }
   }, [theme]);
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./TodoItem.scss";
 import { Checkbox } from "@nextui-org/react";
+import "./TodoItem.scss";
 
 interface TodoItemProps {
   title: string;
@@ -33,6 +33,7 @@ export default function TodoItem({
             color="warning"
             onClick={handleToggleTask}
             isSelected={isDoneTask}
+            data-focus-visible="false"
           />
         </div>
       </div>

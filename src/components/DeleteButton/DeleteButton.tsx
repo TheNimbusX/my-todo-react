@@ -2,7 +2,7 @@ import { Button } from "@nextui-org/react";
 import "./DeleteButton.scss";
 
 interface DeleteButtonProps {
-  onDeleteCompleted: () => void; // Функция обратного вызова для удаления выполненных задач
+  onDeleteCompleted: () => void;
 }
 
 const DeleteButton: React.FC<DeleteButtonProps> = ({ onDeleteCompleted }) => {
@@ -10,6 +10,7 @@ const DeleteButton: React.FC<DeleteButtonProps> = ({ onDeleteCompleted }) => {
     <Button
       className="bg-gradient-to-tr from-red-700 to-pink-500 text-white shadow-lg"
       onClick={onDeleteCompleted}
+      onTouchStart={onDeleteCompleted}
     >
       Удалить выполненные
     </Button>

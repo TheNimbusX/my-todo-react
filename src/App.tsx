@@ -9,7 +9,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1 className="app-title">todo, получается</h1>
+      <h1 className="app-title">туду</h1>
       <ThemeSwitcher />
       <TodoList />
     </div>
