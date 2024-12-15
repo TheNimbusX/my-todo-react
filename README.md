@@ -1,50 +1,40 @@
-# React + TypeScript + Vite
+# My Todo List
+# Stack: React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: "18.3" } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs["jsx-runtime"].rules,
-  },
-});
+Установка зависимостей и запуск проекта 
+NPM I && NPM RUN START
 ```
+GH-Pages : https://thenimbusx.github.io/my-todo-react/
+
+<ins>Здравствуйте! Добро пожаловать в мое видение реализации проекта ToDo-list </ins>
+
+Используемые технологии:
+1) React
+2) TypeScript
+3) ScSS
+4) Vite
+5) Next UI
+6) TailWindCSS
+7) EsLint
+8) css-autoprefixer
+9) post-css
+
+**Что реализовано**
+
+Адаптация под все виды устройств
+
+Сортировка задач (активные, выполненные)
+
+Удаление только выполненных задач (очистка)
+
+Смена тем (светлая, темная) сохраняющаяся в local storage
+
+Добавление новых задач
+
+Отображение надписи "Добавьте новую задачу" - если задач нет
+
+Отдельные кнопки для deleteTask, setDoneTask и addTask
+
+
+*Спасибо за внимание, и надеюсь, до связи*
